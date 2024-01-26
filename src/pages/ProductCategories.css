@@ -1,0 +1,28 @@
+.product-categories-container {
+    margin: 20px;
+}
+
+.product-categories-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-categories-table th,
+.product-categories-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-categories-table thead {
+    background-color: #f2f2f2;
+}
+
+.product-categories-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.product-categories-table tbody tr:hover {
+    background-color: #e6e6e6;
+}

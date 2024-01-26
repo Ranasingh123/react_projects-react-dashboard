@@ -1,0 +1,28 @@
+.vendors-container {
+    margin: 20px;
+}
+
+.vendors-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.vendors-table th,
+.vendors-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.vendors-table thead {
+    background-color: #f2f2f2;
+}
+
+.vendors-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.vendors-table tbody tr:hover {
+    background-color: #e6e6e6;
+}

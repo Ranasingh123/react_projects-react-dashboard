@@ -1,0 +1,28 @@
+.dashboard-container {
+    text-align: center;
+    margin: 25 rem;
+}
+
+.dropdown-container {
+    margin: 1rem;
+}
+
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.chart {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+canvas {
+    width: 95% !important;
+    height: 95% !important;
+}
